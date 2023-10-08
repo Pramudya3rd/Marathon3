@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="assets/Apostrophe-PNG-Clipart.png" alt="Logo" class="logo">
+        <!-- Navbar Tengah -->
+        <nav class="centered-nav">
+            <ul>
+                <li><a href="#first">Home</a></li>
+                <li><a href="#second">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Login -->
+        <a class="right-aligned" href="#regist"><button>Register</button></a>
+    </header>
+    <main>
+        <div id="content">
+            <article class="first" id="first">
+                <img src="assets/girl-869213.jpg" alt="Girl listening to music" class="girllisten">
+                <section class="assets" id="second">
+                    <div class="img">
+                        <section class="apostrofstuf">
+                            <h1>we create Apostrophes for music player so you can enjoy it anywhere and anytime</h1>
+                            <p>Apostrophe has been used by more than 200 million users worldwide</p>
+                        </section>
+                        <img src="assets/wesley-tingey-4q_1c0rd1A0-unsplash.jpg" alt="" class="wesley">
+                        <div class="colorback">
+                        <img src="assets/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg" alt="" class="imgindiv1">
+                    </div>
+                </section>
+                <section class="regist" id="regist">
+                    <h2>Register</h2>
+                    <form>
+                        <label for="">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="address@gmail.com">
+                        <br><br>
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" placeholder="Passowrd">
+                        <br><br>
+                        <label for="tanggal_lahir">Date of birth: </label>
+                        <input type="date" name="tanggal_lahir" id="tanggal_lahir">
+                        <br><br>
+                        <label for="gender">Gender: </label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <br><br>
+                        <input type="submit">
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+    <footer id="contact">
+        <p>You can Contact us: 0812345678</p>
+        <p>Apostrophe Music Player &#169; 2023, Apostrophe Corp</p>
+    </footer>
+</body>
+</html>

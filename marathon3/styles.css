@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 8%;
+}
+/* NAVBAR TENGAH */
+.centered-nav {
+    text-align: center;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: 	#000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #71C9CE;
+}
+
+.centered-nav {
+    list-style: none;
+}
+
+.centered-nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.centered-nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.centered-nav li a:hover {
+    color: #9BABB8;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #9BABB8;
+}
+
+.girllisten {
+    width: 55%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.33333vw;
+    border: none;
+    border-radius: 1%;
+}
+
+article .first {
+    width: 66.66667vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+article .apostrofstuf {
+    margin: 0 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.apostrofstuf h1 {
+    margin-bottom: 1em;
+}
+
+
+div {
+    display: block;
+}
+
+.colorback {
+    width: 879px;
+    height: 700px;
+    left: 41.66667vw;
+    background-color: bisque;
+    position: absolute;
+
+}
+
+.img {
+    display: inline-block;
+}
+div .wesley {
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+}
+
+div .imgindiv1 {
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+aside {
+    float: right;
+}
+
+.assets {
+    margin-bottom: 200px;
+}
+
+.regist {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* Regist */
+
+/* Gaya untuk elemen form */
+.regist form {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    background-color: #f5f5f5; 
+}
+
+/* Gaya untuk elemen h2 (Judul) */
+.regist h2 {
+    text-align: center; 
+    color: #333;
+}
+
+/* Gaya untuk label */
+.regist label {
+    display: block; 
+    margin-bottom: 8px; 
+    color: #666; 
+}
+
+/* Gaya untuk input dan select */
+.regist input[type="email"],
+.regist input[type="password"],
+.regist input[type="date"],
+.regist select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    color: #333;
+}
+
+/* Gaya untuk tombol submit */
+.regist input[type="submit"] {
+    background-color: #007bff;     
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; }
+
+.regist input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    background-color: #71C9CE;
+}
